@@ -8,7 +8,7 @@ El BCD de 7 segmentos se muestra a continuación:
 
 <div align = center>
 
-![Imagen BCD 7 segmentos](/imagenes/bcd7seg.png)
+![Imagen BCD 7 segmentos](imagenes/bcd7seg.png)
 
 </div>
 

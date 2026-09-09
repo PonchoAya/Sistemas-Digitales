@@ -41,7 +41,7 @@ Una vez realizado la tabla de verdad, se proceden a hacer los mapas K de las 7 f
 
 <div align = center>
 
-![Mapas K de cada segmento](/imagenes/mapasK0a9.png)
+![Mapas K de cada segmento](imagenes/mapasK0a9.png)
 
 </div>
 
@@ -79,7 +79,7 @@ Ahora con las funciones para cada segmento, se muestra la implementación del di
 
 <div align = center>
 
-![Diagrama lógico decodificador con compuertas lógicas](/imagenes/DecoBCD7SegCompLog.png)
+![Diagrama lógico decodificador con compuertas lógicas](imagenes/DecoBCD7SegCompLog.png)
 
 </div>
 
@@ -87,7 +87,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif compuertas logicas](/gifs/compuertasLogicas.gif)
+![Gif compuertas logicas](gifs/compuertasLogicas.gif)
 
 </div>
 
@@ -117,7 +117,7 @@ La construcción del diagrama lógico se muestra a continuación:
 
 <div align = center>
 
-![Diagrama lógico decodifcador con NAND's](/imagenes/DecoBCD7SegNAND.png)
+![Diagrama lógico decodifcador con NAND's](imagenes/DecoBCD7SegNAND.png)
 
 </div>
 
@@ -125,7 +125,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif compuertas universales NAND](/gifs/NAND.gif)
+![Gif compuertas universales NAND](gifs/NAND.gif)
 
 </div>
 
@@ -155,7 +155,7 @@ El diagrama lógica de compuertas universales NOR se muestra a continuación:
 
 <div align = center>
 
-![Diagrama lógico decodifcador con NOR's](/imagenes/DecoBCD7SegNOR.png)
+![Diagrama lógico decodifcador con NOR's](imagenes/DecoBCD7SegNOR.png)
 
 </div>
 
@@ -163,7 +163,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif compuertas universales NOR](/gifs/NOR.gif)
+![Gif compuertas universales NOR](gifs/NOR.gif)
 
 </div>
 
@@ -198,7 +198,7 @@ Con la tabla anterior, se observa que conviene usar los maxitérminos pues está
 
 <div align = center>
 
-![Decodificador implementado con decodificadores](/imagenes/DecoBCD7SegDecodificadores.png)
+![Decodificador implementado con decodificadores](imagenes/DecoBCD7SegDecodificadores.png)
 
 </div>
 
@@ -206,7 +206,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif decodificadores](/gifs/deco3a8.gif)
+![Gif decodificadores](gifs/deco3a8.gif)
 
 </div>
 
@@ -228,7 +228,7 @@ Para implementar el diseño por mux'es 4 a 1, se requiere consultar de nuevo cad
 
 <div align = center>
 
-![Mapas K con funciones para minitérminos](/imagenes/MapasKParaDecoMux4a1Min.png)
+![Mapas K con funciones para minitérminos](imagenes/MapasKParaDecoMux4a1Min.png)
 
 </div>
 
@@ -236,7 +236,7 @@ La implementación lógica se muestra a continuación:
 
 <div align = center>
 
-![Diagrama lógico minitérminos](/imagenes/DecoBCD7SegMultiplexores4a1Min.png)
+![Diagrama lógico minitérminos](imagenes/DecoBCD7SegMultiplexores4a1Min.png)
 
 </div>
 
@@ -244,7 +244,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif mux4a1 cuenta de 0 a 9](/gifs/mux4a1cuenta0a9.gif)
+![Gif mux4a1 cuenta de 0 a 9](gifs/mux4a1cuenta0a9.gif)
 
 </div>
 
@@ -254,7 +254,7 @@ Para la implementación de este circuito, ahora se retomarán a C y D como selec
 
 <div align = center>
 
-![Mapas K para maxitérminos con mux4a1](/imagenes/MapasKParaDecoMux4a1MAX.png)
+![Mapas K para maxitérminos con mux4a1](imagenes/MapasKParaDecoMux4a1MAX.png)
 
 </div>
 
@@ -262,7 +262,7 @@ Ahora se muestra la implementación del diagrama lógico con multiplexores 4 a 1
 
 <div align = center>
 
-![Decodificador implementado con mux4a1](/imagenes/DecoBCD7SegMultiplexores4a1Max.png)
+![Decodificador implementado con mux4a1](imagenes/DecoBCD7SegMultiplexores4a1Max.png)
 
 </div>
 
@@ -270,7 +270,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif mux4a1 cuenta de 0 a F](/gifs/mux4a1cuenta0aF.gif)
+![Gif mux4a1 cuenta de 0 a F](gifs/mux4a1cuenta0aF.gif)
 
 </div>
 
@@ -307,7 +307,7 @@ A continuación se muestra la implementación para el codificador bcd de 7 segme
 
 <div align = center>
 
-![Decodificador implementado con una memoria 16x8](/imagenes/DecoBCD7SegMem16x8.png)
+![Decodificador implementado con una memoria 16x8](imagenes/DecoBCD7SegMem16x8.png)
 
 </div>
 
@@ -315,7 +315,7 @@ La tabla de memoria se muestra a continuación:
 
 <div align = center>
 
-![Tabla de memoria 16x8](/imagenes/tablaMemoria16x8.png)
+![Tabla de memoria 16x8](imagenes/tablaMemoria16x8.png)
 
 </div>
 
@@ -323,7 +323,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif memoria 16x8](/gifs/memoria16x8.gif)
+![Gif memoria 16x8](gifs/memoria16x8.gif)
 
 </div>
 
@@ -333,7 +333,7 @@ Para la implementación de memorias 16x4 se debe realizar la expansión del tama
 
 <div align = center>
 
-![Decodificador implementado con memorias 16x4](/imagenes/DecoBCD7Seg2Mem16x4.png)
+![Decodificador implementado con memorias 16x4](imagenes/DecoBCD7Seg2Mem16x4.png)
 
 </div>
 
@@ -341,9 +341,9 @@ Las tablas de memoria se muestran a continuación:
 
 <div align = center>
 
-![Tabla de memoria 16x4 1](/imagenes/tablaMemoria16x4_1.png)
+![Tabla de memoria 16x4 1](imagenes/tablaMemoria16x4_1.png)
 
-![Tabla de memoria 16x4 2](/imagenes/tablaMemoria16x4_2.png)
+![Tabla de memoria 16x4 2](imagenes/tablaMemoria16x4_2.png)
 
 </div>
 
@@ -351,7 +351,7 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif memoria 16x4](/gifs/memoria16x4.gif)
+![Gif memoria 16x4](gifs/memoria16x4.gif)
 
 </div>
 
@@ -361,7 +361,7 @@ Para implementar el circuito por medio de memorias de 8x4, se deben realizar dos
 
 <div align = center>
 
-![Decodificador implementado con memorias 8x4](/imagenes/DecoBCD7SegMem8x4.png)
+![Decodificador implementado con memorias 8x4](imagenes/DecoBCD7SegMem8x4.png)
 
 </div>
 
@@ -369,13 +369,13 @@ Las tablas de memoria se muestran a continuación:
 
 <div align = center>
 
-![Tabla de memoria 8x4 1](/imagenes/tablaMemoria8x4_1.png)
+![Tabla de memoria 8x4 1](imagenes/tablaMemoria8x4_1.png)
 
-![Tabla de memoria 8x4 2](/imagenes/tablaMemoria8x4_2.png)
+![Tabla de memoria 8x4 2](imagenes/tablaMemoria8x4_2.png)
 
-![Tabla de memoria 8x4 3](/imagenes/tablaMemoria8x4_3.png)
+![Tabla de memoria 8x4 3](imagenes/tablaMemoria8x4_3.png)
 
-![Tabla de memoria 8x4 4](/imagenes/tablaMemoria8x4_4.png)
+![Tabla de memoria 8x4 4](imagenes/tablaMemoria8x4_4.png)
 
 </div>
 
@@ -383,6 +383,6 @@ Funcionamiento:
 
 <div align = center>
 
-![Gif memoria 8x4](/gifs/memoria8x4.gif)
+![Gif memoria 8x4](gifs/memoria8x4.gif)
 
 </div>
